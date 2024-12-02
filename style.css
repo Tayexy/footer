@@ -1,0 +1,219 @@
+body {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    
+    .hero{ display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+        color: #ffffff;
+        background-color: gray;
+        padding: 30px;
+        border-bottom: dashed 2px #ffffff;}
+        
+        .hero-container img{ width: 400px;
+            height: 300px;
+        border-radius: 10px;
+        box-shadow: 0px 12px 12px #000000;}
+        
+        .hero-container1 h2{ font-size: 1.8rem;
+        text-align: center;}
+        
+        .hero-container1 li {
+            padding: 10px;
+            font-size: 1.2rem;
+            list-style: none; 
+            background-image: url('icon.png');
+            background-size: 50px; 
+            background-repeat: no-repeat; 
+            background-position: left; 
+            padding-left: 50px;
+        }
+        
+    
+    .license{display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color:#ffffff;
+    font-size: 1rem;
+    border-bottom: dashed 2px;
+    text-align: center;
+    padding: 10px;}
+    
+    .license-container {text-align: center;
+    color: #db3056;
+    padding: 10px;}
+    
+    .license-container li{text-align: left;
+        color:#000000;
+    padding: 10px;
+    list-style: none;}
+    
+    .license-container1 {background-color:  gray;
+    text-align: center;
+    padding: 10px;}
+    
+    .license-container1 li {text-align: left;
+    padding: 10px;
+    list-style: none;}
+    
+    .license-btn{background: transparent;
+        color:#000000;
+    border: 2px solid black;
+    border-radius:10px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.3s;}
+    
+    .license-btn:hover{background-color:#db3056;
+    color:#ffffff;}
+    
+        .sellbeat {
+            display: flex;
+            justify-content: center; 
+            flex-wrap: wrap;
+            gap: 30px;
+            border-bottom: dashed 2px #ffffff;
+            background-color: gray;
+            padding: 15px;
+        }
+        
+        .sellbeat-container{background-color: #000000;
+            color:#ffffff;
+        text-align: center;
+        padding: 17px;
+      border-radius: 2px;}
+        
+        .sellbeat-container h2{font-size: 1.8rem;}
+        
+        .sellbeat-container li{font-size: 1.2rem;;
+        padding: 10px;
+      text-align: left;}
+        
+        .sellbeat-container1{
+            text-align: left;
+            padding: 15px;}
+            
+            .sellbeat-container1 h2{font-size: 1.8rem;}
+            
+            .sellbeat-container1 li{font-size: 1.2rem;
+            padding:10px;} 
+    
+            .buy-link{background-color:#db3056;
+            color:#ffffff;
+            justify-content: ce;
+        border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.3s;}
+    
+    .buy-link:hover{background-color:gray;
+    color:#ffffff;}
+    
+            .newsletter {background-color: #0b0a0a;
+                color:#ffffff;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                padding: 20px;
+            }
+    
+            .newsletter1{ font-size: 1.2rem;
+            border-right: solid 2px white;
+            color:#ffffff;
+          padding: 10px;}
+    
+    
+            
+            .submit-button{height: 40px;
+            width: 50%;
+        border-radius: 10px;}
+    
+    
+    
+        .footer-wrapper {
+          background-color: #000000;
+          color: #ffffff;
+          padding: 20px;
+          display: flex; 
+          align-items: center;
+          text-align: center;
+          justify-content: space-evenly;
+          flex-wrap: wrap; 
+      }
+      
+      .footer-container img {
+          width: 100%;
+          max-width: 250px;
+          height: auto;
+      }
+      
+      .footer-container a {
+          color: #ffffff;
+          font-size: 30px;
+          text-decoration: none;
+      }
+    
+      .footer-container a:hover{color:#db3056;}
+      
+      .footer-container1 a {
+          color: #ffffff;
+          font-size: 30px;
+          text-decoration: none;
+      }
+      
+      .footer-container1 a:hover {
+          color: #db3056;
+      }
+      
+      .accordion-container {
+          display: flex;
+          flex-direction: column;
+          width: 20%;
+      }
+      
+      .accordion {
+        background-color: #db3056;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border-radius: 5px;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      
+      .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2212";
+      }
+      
+      .content {
+        padding: 0 18px;
+        color:#000000;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      
+      footer { 
+          background-color: #0b0a0a;
+          color: #ffffff;
+          text-align: center;
+          padding: 5px;
+      }
+      
